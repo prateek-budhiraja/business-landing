@@ -145,6 +145,7 @@ section.info .info-card img {
   width: 500px;
   height: 400px;
   object-fit: cover;
+  object-position: 40% 0%;
 }
 
 section.team {
