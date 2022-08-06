@@ -252,6 +252,17 @@ footer .bottom p {
     display: none;
   }
 
+  section.hero h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  section.info .info-card .right,
+  section.info .info-card .left {
+    width: 40%;
+    align-self: center;
+  }
+
   section.info .info-card {
     padding: 20px;
     gap: 2em;
@@ -259,7 +270,7 @@ footer .bottom p {
   }
 
   section.info .info-card img {
-    width: 300px;
+    width: 100%;
     height: 200px;
   }
 
@@ -326,5 +337,54 @@ footer .bottom p {
     margin-bottom: 5px;
   }
 
+  section.info .info-card img {
+    display: none;
+  }
 
+  section.info .info-card .right,
+  section.info .info-card .left {
+    width: 100%;
+    align-self: center;
+  }
+
+  section.info .info-card {
+    display: block;
+    height: 230px;
+  }
+
+  .team-card {
+    margin-left: -50px;
+  }
+
+  footer .bottom {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+
+  header .input {
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+
+  header .input button {
+    position: absolute;
+    bottom: -40px;
+    display: block;
+    left: 25%;
+  }
+
+  header .input span {
+    padding-right: 10px;
+  }
+
+
+  .head-content {
+    padding: 20px 20px 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 8em;
+  }
 }
